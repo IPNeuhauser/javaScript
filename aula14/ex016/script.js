@@ -1,24 +1,21 @@
-function calcular(){
-    let num = document.querySelector('input#num');
-    let tab = document.querySelector('select#tabuada');
+function contar(){
+    let inicio = document.querySelector('input#inicio');
+    let fim = document.querySelector('input#fim');
+    let passo = document.querySelector('input#passo');
     let res = document.querySelector('div#res');
 
-    tab.innerHTML = '';
-
-    if(num.value.length == 0){
-        let item = document.createElement('option');
-        item.text = 'Deseja calcular a tabuada de qual número?'
-        tab.appendChild(item);
-        return
-    }
-
     res.style.display = 'block';
-    num = Number(num.value);
-
-    for(let i = 0; i <= 10; i++){
-        let item = document.createElement('option');
-        item.text = `${num} x ${i} = ${num * i}`;
-        item.value = `tab${i}`;
-        tab.appendChild(item);
+    
+    if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0 || Number(passo.value <= 0)){
+        res.innerHTML = 'Impossivel contar! Verifique o formulário.'
+        return;
     }
+
+    res.innerHTML = 'Contando: ';
+
+    for (let c = Number(inicio.value); c <= Number(fim.value); c += Number(passo.value)){
+        res.innerHTML += `${c} &#x27A1 `;
+    }
+
+    res.innerHTML += `&#x1F3C1`;
 }

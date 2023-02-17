@@ -27,7 +27,7 @@ header {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    height: 10%;
+    height: 5%;
     padding-top: 5%;
 }
 
@@ -56,11 +56,6 @@ section div {
     color: white;
     text-align: right;
     margin: 0px 10px;
-}
-
-section div#res {
-    display: none;
-    text-align: left;
 }
 
 section div label {
@@ -97,6 +92,7 @@ section div input#botao:hover {
 }
 
 section div#res {
+    display: none;
     background-color: white;
     color: var(--azul3);
     font-size: 1.1em;
@@ -106,6 +102,15 @@ section div#res {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+section div#res select#tabuada {
+    border: none;
+    font-size: 1.1em;
+    color: var(--azul3);
+    padding: 5px;
+    width: 100%;
+    text-align: center;
 }
 
 footer {

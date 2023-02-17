@@ -9,21 +9,29 @@
 </head>
 <body>
     <header>
-        <h1>Tabuada</h1>
+        <h1>Vamos Contar</h1>
     </header>
     <main>
         <section>
-            <div>
-                <label for="num">Número: </label>
-                <input type="number" name="numero" id="num" placeholder="Escolha um número de 0 a 9">
-            </div>
-            <div>
-                <input id="botao" type="button" value="Calcular" onclick="calcular()">
-            </div>
+            <form>
+                <div>
+                    <label for="inicio">Início: </label>
+                    <input type="number" name="inicio" id="inicio" min="1" max="10" placeholder="Escolha o número de inicio">
+                </div>
+                <div>
+                    <label for="fim">Fim: </label>
+                    <input type="number" name="fim" id="fim" min="2" max="50" placeholder="Escolha o número final">
+                </div>
+                <div>
+                    <label for="passo">Passo: </label>
+                    <input type="number" name="passo" id="passo" min="1" max="5" placeholder="Deseja contar de quanto em quanto?">
+                </div>
+                <div>
+                    <input id="botao" type="button" value="Contar" onclick="contar()">
+                </div>
+            </form>
             <div id="res">
-                <select name="tabuada" id="tabuada" size="11">
-
-                </select>
+                Resposta: &#x27A1 &#x1F3C1
             </div>
         </section>
     </main>
