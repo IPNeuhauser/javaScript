@@ -8,18 +8,19 @@
 body {
     background-color: rgb(107, 107, 241);
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
 }
 
 header {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
-    color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     padding: 10px;
-    height: 10vh;
+    height: 8vh;
+    margin-top: 20px;
 }
 
 main {
@@ -30,7 +31,6 @@ main {
 section {
     background-color: white;
     width: 500px;
-    height: 50vh;
     border-radius: 15px;
     padding: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
@@ -43,18 +43,29 @@ section {
 
 section div {
     display: block;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
     font-weight: bold;
 }
 
+section div#formulario input#iano {
+    width: 100px;
+}
+
+section div#msg {
+    text-align: center;
+}
+
 section div#imagem {
-    display: block;
-    background-image: url(imagens/manha.jpg);
-    height: 60%;
-    width: 40%;
+    display: none;
+    background-image: url("images/crianca-fem.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
     border-radius: 50%;
     margin: auto;
 }
