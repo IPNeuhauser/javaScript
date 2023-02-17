@@ -42,6 +42,7 @@ section {
 }
 
 section div {
+    display: block;
     text-align: center;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -50,8 +51,8 @@ section div {
 }
 
 section div#imagem {
+    display: block;
     background-image: url(imagens/manha.jpg);
-    background-position: center center;
     height: 60%;
     width: 40%;
     border-radius: 50%;
