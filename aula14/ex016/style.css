@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --verde1: #0CF25D;
+    --verde2: #038C3E;
+    --azul1: #02735E;
+    --azul2: #025951;
+    --azul3: #034159;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--azul3), var(--azul1));
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 5%;
+    padding-top: 5%;
+}
+
+main {
+    position: relative;
+    height: 74%;
+}
+
+section {
+    position: absolute;
+    background-image: linear-gradient(to top, var(--verde1), var(--verde2));
+    width: 60vw;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+section div {
+    padding: 5px;
+    color: white;
+    text-align: right;
+    margin: 0px 10px;
+}
+
+section div label {
+    font-size: 1.2em;
+    text-shadow: 0px 0px 2px black;
+}
+
+section div input {
+    display: inline-block;
+    width: 85%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+section input#botao {
+    display: block;
+    margin: 5px auto;
+    width: 20%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: white;
+    background-color: var(--azul1);
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.388);
+}
+
+section div input#botao:hover {
+    font-size: 0.9em;
+    text-decoration: underline;
+    background-color: var(--azul3);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+section div#res {
+    display: none;
+    background-color: white;
+    color: var(--azul3);
+    font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+section div#res select#tabuada {
+    border: none;
+    font-size: 1.1em;
+    color: var(--azul3);
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    height: 10%;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
