@@ -23,17 +23,17 @@ function verificar() {
         imagem.style.display = 'block';
 
         if (idade < 18 && genero == 'homem') {
-            imagem.style.backgroundImage = `url('images/crianca-masc')`;
+            imagem.style.backgroundImage = `url('images/crianca-masc.jpg')`;
         } else if (idade < 18 && genero == 'mulher') {
-            imagem.style.backgroundImage = `url('images/crianca-fem')`;
+            imagem.style.backgroundImage = `url('images/crianca-fem.jpg')`;
         } else if (idade < 50 && genero == 'homem') {
-            imagem.style.backgroundImage = `url('images/adulto-masc')`;
+            imagem.style.backgroundImage = `url('images/adulto-masc.jpg')`;
         } else if (idade < 50 && genero == 'mulher') {
-            imagem.style.backgroundImage = `url('images/adulto-fem')`;
+            imagem.style.backgroundImage = `url('images/adulto-fem.jpg')`;
         } else if (idade >= 50 && genero == 'homem') {
-            imagem.style.backgroundImage = `url('images/velho-masc')`;
+            imagem.style.backgroundImage = `url('images/velho-masc.jpg')`;
         } else if (idade >= 50 && genero == 'mulher') {
-            imagem.style.backgroundImage = `url('images/velho-fem')`;
+            imagem.style.backgroundImage = `url('images/velho-fem.jpg')`;
         }
     }
 }

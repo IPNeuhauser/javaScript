@@ -49,9 +49,31 @@ section div {
     font-size: 1.2em;
     font-weight: bold;
 }
+section div#formulario {
+    height: 80px;
+}
 
 section div#formulario input#iano {
     width: 100px;
+}
+
+section div#formulario input#enviar {
+    display: block;
+    background-color: rgb(128, 128, 241);
+    color: white;
+    width: 100px;
+    height: 25px;
+    padding: 3px;
+    margin: 10px auto 0px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+}
+
+section div#formulario input#enviar:hover {
+    text-decoration: underline;
+    background-color: rgb(52, 52, 245);
+    border: 1px solid rgb(72, 72, 211);
 }
 
 section div#msg {
@@ -66,8 +88,10 @@ section div#imagem {
     height: 200px;
     width: 200px;
     text-align: center;
+    border: 1px solid black;
     border-radius: 50%;
     margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
 }
 
 footer {
