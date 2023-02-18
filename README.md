@@ -5,6 +5,7 @@ Melhores Resultados <br>
 -> <a href="https://ipneuhauser.github.io/javaScript/aula13/ex015/ex015.html" target="_blank">Ex 015</a><br>
 -> <a href="https://ipneuhauser.github.io/javaScript/aula14/ex016/ex016.html" target="_blank">Ex 016</a><br>
 -> <a href="https://ipneuhauser.github.io/javaScript/aula14/ex017/ex017.html" target="_blank">Ex 017</a><br>
+-> <a href="https://ipneuhauser.github.io/javaScript/aula15/ex018/" target="_blank">Ex 018</a><br>
  
 Exercícios do curso!
 
@@ -20,5 +21,6 @@ Exercícios do curso!
 -> <a href="https://ipneuhauser.github.io/javaScript/aula13/ex014/ex014.html" target="_blank">Ex 014</a><br>
 -> <a href="https://ipneuhauser.github.io/javaScript/aula13/ex015/ex015.html" target="_blank">Ex 015</a><br>
 -> <a href="https://ipneuhauser.github.io/javaScript/aula13/ex015/ex015.html" target="_blank">Ex 015</a><br>
--> <a href="https://ipneuhauser.github.io/javaScript/aula14/ex016/ex016.html" target="_blank">Ex 016</a><br>
--> <a href="https://ipneuhauser.github.io/javaScript/aula14/ex017/ex017.html" target="_blank">Ex 017</a><br>
+-> <a href="https://ipneuhauser.github.io/javaScript/aula14/ex016/" target="_blank">Ex 016</a><br>
+-> <a href="https://ipneuhauser.github.io/javaScript/aula14/ex017/" target="_blank">Ex 017</a><br>
+-> <a href="https://ipneuhauser.github.io/javaScript/aula15/ex018/" target="_blank">Ex 018</a><br>

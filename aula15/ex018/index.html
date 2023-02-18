@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <label for="inicio">Número: </label>
+                <input type="number" name="inicio" id="inicio" min="1" max="100" placeholder="Escolha o número de inicio">
+            </div>
+            <div>
+                <input class="botao" type="button" value="Adicionar" onclick="adicionar()">
+            </div>
+            <div class="res linha" id="resposta">
+                Respostas:
+            </div>
+            <div class="linha" id="num">
+                <select name="numeros" id="numeros" size="10">
+
+                </select>
+            </div>
+            <div>
+                <input class="botao" id="dados" type="button" value="Dados" onclick="calculos()">
+            </div>
+            <div class="res" id="calculos">
+                Os cálculos aqui.
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        &copy; CursoemVideo
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>
